@@ -1,0 +1,18 @@
+@import "reset";
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+main {
+  background-color: greenyellow;
+  border: solid yellow 12px;
+}
+.identity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

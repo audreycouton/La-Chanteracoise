@@ -1,0 +1,24 @@
+{
+  "name": "la-chanteracoise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel src/index.pug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audreycouton/La-Chanteracoise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/audreycouton/La-Chanteracoise/issues"
+  },
+  "homepage": "https://github.com/audreycouton/La-Chanteracoise#readme",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "pug": "^3.0.2"
+  }
+}

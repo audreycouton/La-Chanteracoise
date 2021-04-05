@@ -1,0 +1,20 @@
+.story {
+  margin: 10% 0;
+}
+
+.story img {
+  width: 100%;
+}
+
+.story__description {
+  text-align: center;
+  padding: 20%;
+  background-color: #fff3e0;
+  padding: 20px;
+  width: 50%;
+}
+@media screen and (max-width: 700px) {
+  .story__description {
+    width: 100%;
+  }
+}

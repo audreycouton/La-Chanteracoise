@@ -1,7 +1,7 @@
 @import "reset";
-@import "blocs/hero.scss";
-@import "blocs/story.scss";
-@import "blocs/products.scss";
+@import "./blocs/hero.scss";
+@import "./blocs/story.scss";
+@import "./blocs/products.scss";
 * {
   box-sizing: border-box;
 }

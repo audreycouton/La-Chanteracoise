@@ -2,33 +2,3 @@
 @import "./blocs/hero.scss";
 @import "./blocs/story.scss";
 @import "./blocs/products.scss";
-* {
-  box-sizing: border-box;
-}
-@font-face {
-  font-family: "Hatolie";
-  src: url("../font/Hatolie.ttf") format("ttf");
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-h1 {
-  margin: 0;
-}
-p {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1.2em;
-}
-h1,
-h2 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-}
-h3,
-h4 {
-  font-size: 3em;
-  font-family: "Playfair Display", serif;
-}

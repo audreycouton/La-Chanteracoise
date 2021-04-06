@@ -17,12 +17,15 @@
 .hero {
   width: 100%;
   height: 100vh;
-  background-color: #91be91;
+  background-image: url(../img/hero.jpg);
   background-size: cover;
+}
+.hero__background {
+  display: none;
 }
 .hero__title h1 {
   font-size: 6em;
-  font-family: "Hatolie", Courier, monospace;
+  font-family: "Hatolie", "Playfair Display", Courier, monospace;
   color: white;
 }
 @media screen and (max-width: 700px) {

@@ -2,6 +2,7 @@
 @import "./blocs/hero.scss";
 @import "./blocs/story.scss";
 @import "./blocs/products.scss";
+@import "./blocs/ingredients.scss";
 * {
   box-sizing: border-box;
 }
@@ -9,12 +10,7 @@
   font-family: "Hatolie";
   src: url("../font/Hatolie.ttf") format("ttf");
 }
-@font-face {
-  font-family: "Hatolie Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Hatolie Regular"), url("Hatolie.woff") format("woff");
-}
+
 body {
   margin: 0;
   padding: 0;
@@ -44,11 +40,18 @@ h4 {
   .products--bg {
     width: 100%;
   }
-  .flex-products {
+  .flex-products,
+  .ingredients__item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .ingredients__item {
+    width: 100%;
+  }
+  .ingredients__item img {
+    width: 70%;
   }
   h1,
   h2,

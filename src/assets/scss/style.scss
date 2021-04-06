@@ -9,7 +9,12 @@
   font-family: "Hatolie";
   src: url("../font/Hatolie.ttf") format("ttf");
 }
-
+@font-face {
+  font-family: "Hatolie Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Hatolie Regular"), url("Hatolie.woff") format("woff");
+}
 body {
   margin: 0;
   padding: 0;
